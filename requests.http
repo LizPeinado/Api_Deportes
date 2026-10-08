@@ -1,0 +1,38 @@
+### GET - Mostrar todos los registros
+GET http://localhost:3000/natacion
+
+
+### GET - Mostrar un registro por ID
+GET http://localhost:3000/natacion/1
+
+
+### POST - Agregar un nuevo registro
+POST http://localhost:3000/natacion
+Content-Type: application/json
+
+{
+    "nombre": "Natación sincronizada",
+    "escenario": "Alberca olímpica",
+    "dimensiones": "50 x 25 metros",
+    "numero_de_elementos": 8,
+    "equipo_necesario": "Goggles, traje de baño y pinzas nasales",
+    "pais": "España"
+}
+
+
+### PUT - Modificar un registro
+PUT http://localhost:3000/natacion/1
+Content-Type: application/json
+
+{
+    "nombre": "Natación estilo libre modificada",
+    "escenario": "Alberca olímpica",
+    "dimensiones": "50 x 25 metros",
+    "numero_de_elementos": 10,
+    "equipo_necesario": "Goggles, gorra, traje de baño y cronómetro",
+    "pais": "México"
+}
+
+
+### DELETE - Eliminar un registro
+DELETE http://localhost:3000/natacion/5

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nombre": "Natación estilo libre modificada",
+        "escenario": "Alberca olímpica",
+        "dimensiones": "50 x 25 metros",
+        "numero_de_elementos": 10,
+        "equipo_necesario": "Goggles, gorra, traje de baño y cronómetro",
+        "pais": "México"
+    },
+    {
+        "id": 2,
+        "nombre": "Natación estilo pecho",
+        "escenario": "Alberca deportiva",
+        "dimensiones": "25 x 12.5 metros",
+        "numero_de_elementos": 6,
+        "equipo_necesario": "Goggles, gorra y traje de baño",
+        "pais": "Estados Unidos"
+    },
+    {
+        "id": 3,
+        "nombre": "Natación estilo mariposa",
+        "escenario": "Alberca olímpica",
+        "dimensiones": "50 x 25 metros",
+        "numero_de_elementos": 8,
+        "equipo_necesario": "Goggles, gorra, traje de baño y cronómetro",
+        "pais": "Australia"
+    },
+    {
+        "id": 4,
+        "nombre": "Natación estilo espalda",
+        "escenario": "Alberca deportiva",
+        "dimensiones": "25 x 12.5 metros",
+        "numero_de_elementos": 6,
+        "equipo_necesario": "Goggles, gorra y traje de baño",
+        "pais": "Japón"
+    },
+    {
+        "nombre": "Natación sincronizada",
+        "escenario": "Alberca olímpica",
+        "dimensiones": "50 x 25 metros",
+        "numero_de_elementos": 8,
+        "equipo_necesario": "Goggles, traje de baño y pinzas nasales",
+        "pais": "España",
+        "id": 5
+    }
+]
